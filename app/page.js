@@ -376,7 +376,7 @@ const styles = {
 
   vidTitle:{
     fontSize: '1rem',
-    fontFamily: 'serif',
+    fontWeight:'300',
     marginBottom: '5px',
     color:'grey'
   },
@@ -397,7 +397,7 @@ const styles = {
     color:'grey',
   },
   subtitle: {
-    fontSize: '1rem',
+    fontSize: '1.3rem',
     marginTop:'10px',
     marginBottom: '10px',
     textAlign:'left',
@@ -482,6 +482,10 @@ const styles = {
   },
   previewContainer: {
     display: 'flex',
+    border:'2px solid grey',
+    padding:'15px',
+    backgroundColor:'lightblue',
+    borderRadius:'8px',
     flexDirection: 'column', // Stack items vertically
     alignItems: 'flex-start', // Left align items
     marginBottom: '10px', // Space between items
